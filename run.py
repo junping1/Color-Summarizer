@@ -157,7 +157,7 @@ def generate_result(img_color):
 
     fig.update_traces(marker=dict(color=dot_color))
 
-    fig.write_html("color-3d.html")
+    fig.write_html("color-3d.html", include_plotlyjs="cdn")
 
     with open("color-3d.html", "r") as color_3d:
         color_3d_html = color_3d.read()
