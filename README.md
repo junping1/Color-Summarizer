@@ -132,3 +132,6 @@ python3 run.py
 分析结果会以`[img-文件夹名]_result.html`的名称存储。
 
 就这样!
+
+<br>
+<img src="tips.jpg" width=315 ></img>
