@@ -18,11 +18,11 @@ After downloading, double click to unzip, you should see a folder named `Color-S
 
 There are two download options, using Graphical Installer makes the installation easier.
 
-### 3. Open Terminal in the folder where Color Summarizer is located
+### 3. Open `Terminal` in the folder where Color Summarizer is located
 
-Right-click on the folder (`Color-Summarizer-master`) and select **_Services > New Terminal at Folder_** to open Terminal.
+Right-click on the folder (`Color-Summarizer-master`) and select **_Services > New Terminal at Folder_** to open `Terminal`.
 
-### 4. Install `colorgram.py`
+### 4. Install `colorgram.py` and `plotly`.
 
 Copy the following command, paste it into `Terminal`, and press ENTER.
 
@@ -31,6 +31,12 @@ pip3 install colorgram.py
 ```
 
 You should see something is successfully installed.
+
+Then copy the following command to install `plotly`
+
+```bash
+pip3 install plotly
+```
 
 ### 5. Now try to run Color Summarizer!
 
@@ -81,19 +87,19 @@ Color Summarizer 支持`jpg`、`png`、`jpeg`格式的图像。
 
 ### 1. [下载](https://github.com/Itsukay/Color-Summarizer/archive/master.zip)Color Summarizer
 
-下载后，双击解压，你应该会看到一个名为 "Color-Summarizer-master "的文件夹。
+下载后，双击解压，你应该会看到一个名为 `Color-Summarizer-master`的文件夹。
 
 ### 2. 下载并安装 [Anaconda Installer](https://www.anaconda.com/products/individual)
 
 有两种下载方式，使用 Graphical Installer 安装更容易。
 
-### 3. 在 Color Summarizer 所在的文件夹中打开终端。
+### 3. 在 Color Summarizer 所在的文件夹中打开`终端`。
 
-右击文件夹(`Color-Summarizer-master`)，选择**_Services > New Terminal at Folder_**打开终端。
+右击文件夹(`Color-Summarizer-master`)，选择**服务 > 新建位于文件夹位置的终端窗口**打开`终端`。
 
-### 4. 安装`colorgram.py`。
+### 4. 安装`colorgram.py`和`plotly`。
 
-复制下面的命令，粘贴到 "终端 "中，并按回车键。
+复制下面的命令，粘贴到`终端`中，并按回车键。
 
 ```bash
 pip3 install colorgram.py
@@ -101,9 +107,15 @@ pip3 install colorgram.py
 
 你应该看到一些东西被成功安装。
 
+然后再使用下面的命令，安装`plotly`
+
+```bash
+pip3 install plotly
+```
+
 ### 5. 现在尝试运行 Color Summarizer!
 
-复制下面的命令，粘贴到 "终端"，然后按 ENTER 键。
+复制下面的命令，粘贴到`终端`，然后按 ENTER 键。
 
 ```bash
 python3 run.py
@@ -127,9 +139,9 @@ Please enter the name of the folder you want to analyse:
 python3 run.py
 ```
 
-输入文件夹名称（本例中为 "my-images"），按ENTER键。Color Summarizer会告诉你完成的预计时间，并在完成后自动显示结果。
+输入文件夹名称（本例中为`my-images`），按ENTER键。Color Summarizer会告诉你完成的预计时间，并在完成后自动显示结果。
 
-分析结果会以`[img-文件夹名]_result.html`的名称存储。
+分析结果会以`[图片所在的文件夹名]_result.html`的名称存储。
 
 就这样!
 
